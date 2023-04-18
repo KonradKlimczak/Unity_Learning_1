@@ -82,13 +82,4 @@ public class FrogController : Enemy_Controller
     }
   }
 
-  public void JumpedOn()
-  {
-    anim.SetTrigger("death");
-  }
-
-  private void Death()
-  {
-    Destroy(this.gameObject);
-  }
 }
